@@ -39,7 +39,7 @@ body {
     margin: 1rem 0;
 }
 .caracter-pose {
-    width: 34rem;
+    width: 30rem;
 }
 .main {
     width: 100%;
@@ -47,6 +47,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
+    color: var(--nav-color);
 }
 .caracter-information h1 {
     font-family: 'Berkshire Swash', cursive;
