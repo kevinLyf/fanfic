@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+:root {
+    --nav-bg:#8a332f;
+    --nav-bg-sub:#bb4626;
+    --nav-color:#FAFAFA;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    background-color: var(--nav-bg-sub);
+}
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0rem;
+    width: 4rem;
+    height: 100vh;
+    background-color: var(--nav-bg);
+}
+.navbar ul {
+    margin-top: 3rem;
+}
+.navbar .logo {
+    width: 3rem;
+}
+.navbar .nav-link {
+    color: var(--nav-color);
+    width: 3rem;
+    margin: 1rem 0;
+}
+.caracter-pose {
+    width: 40rem;
+}
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.caracter-information h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 55pt;
+}
+.caracter-information p {
+    word-break: keep-all;
+    width: 80%;
+}
